@@ -6,9 +6,9 @@ class CashRegister
   end
 
   def discount
-    if employee? 
+    if employee?
       take 20% off 
-    end 
+    end
   end
-  
+
 end
