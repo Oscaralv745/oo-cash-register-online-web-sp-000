@@ -9,11 +9,11 @@ class CashRegister
   end
 
   def add_item(title, price, quantity = 1)
-    @last_total = @total 
+    @last_total = @total
     @total += price * quantity
     quantity.times do
       @items << title
-    end 
+    end
   end
 
   def apply_discount
