@@ -23,6 +23,6 @@ class CashRegister
   end
 
   def void_last_transaction
-    self.destroy
+    self.clear.all
   end
 end
