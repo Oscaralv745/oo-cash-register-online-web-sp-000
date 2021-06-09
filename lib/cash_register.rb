@@ -7,7 +7,7 @@ class CashRegister
 
   def discount
     if employee?
-      take 20% off 
+      take 20% off
     end
   end
 
